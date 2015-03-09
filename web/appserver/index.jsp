@@ -19,7 +19,7 @@ String result = "succeeded";
 <body>
 
 <div id="header">
-<div id="logo"><img src="../images/logo.png" /></div>
+<div id="logo"><img src="../images/Offis_Logo2013.jpg" width="600"/></div>
 </div>
 
 <div class="code_container">
