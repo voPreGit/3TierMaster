@@ -6,14 +6,18 @@
     <title>Offis Unified Test App</title>
     <link rel="stylesheet" type="text/css" href="style.css" />  
 </head>
-<body>
-	<img src="images/splashscreen.png" width="600"/>
+<body><center>
+	<img src="images/splashscreen.png"/>
 	<h3>
 		<span id="today"></span>
 	</h3>
+</center>
 <script>
 	var d = new Date();
-	document.getElementById("today").innerHTML = d;
+	var options = {
+     		day: "numeric", month: "short", year: "numeric"
+	};
+	document.getElementById("today").innerHTML = d.toLocaleDateString("en-AU", options);
 </script>
 </body>
 </html>

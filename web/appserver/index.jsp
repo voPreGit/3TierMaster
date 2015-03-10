@@ -17,8 +17,9 @@ String result = "succeeded";
 </head>
 
 <body>
-	<img src="../images/splashscreen.png" width="600"/>
-
+<center>
+	<img src="../images/splashscreen.png"/>
+</center>
 	<h3>  
 		Tomcat configuration=<%= result %>
 	</h3>

@@ -19,10 +19,10 @@ String hostname = inetAddress.getHostName();
 </head>
 
 <body>
-
+<center>
 	<img src="../images/splashscreen.png" width="600"/>
 
-
+</center>
 <h3>
 Tomcat server
 </h3>

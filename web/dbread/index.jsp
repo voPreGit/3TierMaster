@@ -16,8 +16,9 @@
 </head>
 
 <body>
-	<img src="../images/splashscreen.png" width="600"/>
-	
+<center>
+	<img src="../images/splashscreen.png" />
+	</center>
 <H1>Database Connection Test</H1>
 
 <h3>Connection Status</h3> 
