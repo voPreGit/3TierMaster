@@ -14,18 +14,14 @@ String hostname = inetAddress.getHostName();
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title>RightScale Unified Test App</title>
+    <title>Offis Unified Test App</title>
     <link rel="stylesheet" type="text/css" href="../style.css" />
 </head>
 
 <body>
 
-<div id="header">
-<div id="logo"><img src="../images/logo.png" /></div>
-</div>
+	<img src="../images/splashscreen.png" width="600"/>
 
-<div class="code_container">
-<div class="code">
 
 <h3>
 Tomcat server
@@ -33,8 +29,6 @@ Tomcat server
 ip=<%= ip_addr %>; <br/>
 hostname=<%= hostname %>; <br/>
 
-</div>
-</div>
 
 </body>
 </html>
