@@ -16,7 +16,7 @@
 </head>
 
 <body>
-	<img src="../images/Offis_Logo2013.jpg" width="600"/>
+	<img src="../images/splashscreen.png" width="600"/>
 	
 <H1>Database Connection Test</H1>
 
