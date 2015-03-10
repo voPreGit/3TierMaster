@@ -12,25 +12,15 @@ String result = "succeeded";
    
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title>RightScale Unified Test App</title>
+    <title>Offis Unified Test App</title>
     <link rel="stylesheet" type="text/css" href="../style.css" />  
 </head>
 
 <body>
+	<img src="../images/splashscreen.png" width="600"/>
 
-<div id="header">
-<div id="logo"><img src="../images/Offis_Logo2013.jpg" width="600"/></div>
-</div>
-
-<div class="code_container">
-<div class="code">
-
-<h3>  
-Tomcat configuration=<%= result %>
-</h3>
-
-</div>
-</div>
-
+	<h3>  
+		Tomcat configuration=<%= result %>
+	</h3>
 </body>
 </html>

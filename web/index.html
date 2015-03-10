@@ -3,23 +3,17 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title>RightScale Unified Test App</title>
+    <title>Offis Unified Test App</title>
     <link rel="stylesheet" type="text/css" href="style.css" />  
 </head>
-
+<script>
+	var d = new Date();
+	document.getElementById("today").innerHTML = d;
+</script>
 <body>
-
-<div id="header">
-<div id="logo"><img src="images/Offis_Logo2013.jpg" width="600"/></div>
-</div>
-
-<div class="code_container">
-<div class="code">
-<h3>
-Basic html serving succeeded.
-</h3>
-</div>
-</div>
-
+	<img src="images/splashscreen.png" width="600"/>
+	<h3>
+		Cloud demonstration <span id="today"></span>
+	</h3>
 </body>
 </html>

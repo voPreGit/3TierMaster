@@ -16,14 +16,8 @@
 </head>
 
 <body>
-
-<div id="header">
-<div id="logo"><img src="../images/Offis_Logo2013.jpg" width="600"/></div>
-</div>
-
-<div class="code_container">
-<div class="code">
-
+	<img src="../images/Offis_Logo2013.jpg" width="600"/>
+	
 <H1>Database Connection Test</H1>
 
 <h3>Connection Status</h3> 
@@ -39,8 +33,7 @@ for(int i=0; i < tst.getResultCount(); i++) {
 }
 %>
 
-</div>
-</div>
+
 
 </body>
 </html>
